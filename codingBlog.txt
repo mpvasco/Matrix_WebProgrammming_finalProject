@@ -1,0 +1,21 @@
+Conteúdo principal:
+			MY PROGRAMMING BLOG::::: QUIZ, CARDS*************************************************DONE
+
+Menu:	CONTACT # BLOG/COURSES # PYTHON # CV(sem telefone)***************************************************DONE
+
+
+ABOUT ME:
+		NOME, Foto? Interesses atuais, tecnologias, quote, hastags tecnologias***********************DONE
+
+
+CONTACT ME:
+		Forms to email: nome, email, assunto, conteudo, enviar e reset ******************************DONE
+
+BLOG:
+news: about thech
+new to proggramming? Suggested path
+COURSES Suggenstions: FreecodeCamp; Matrix college**
+
+
+
+

@@ -1,0 +1,139 @@
+
+* {
+  margin: 0px;
+  font-family: Verdana, sans-serif; margin:0;
+  
+}
+
+/*MENU - NAV BAR*/
+ul { 
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000257;
+}
+li { 
+  float: left;
+}
+li a { 
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.menu a:hover:not(.active) {
+  background-color: #05078d;
+}
+
+.active {
+  background-color:#f7b605;
+}
+
+nav.menu {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+ 
+/* MAIN */
+
+.mmain {
+  margin: 10px 0px;
+  padding-bottom: 6.5rem;
+}
+.mmain div  {
+   text-align: center;
+
+}
+.main {
+  margin: 10px 30px;
+  height: 83vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+body {
+  position: relative;  /*------------*/
+  min-height: 100vh;   /*------------*/
+}
+footer {
+  position: absolute; /*------------*/
+  bottom: 0;          /*------------*/
+  width: 100%;        /*------------*/
+  height: 6.5rem;     /*------------*/
+}
+
+
+.main img {
+  height: 500px;
+  width: 500px;
+}
+
+/* FORM */
+div.form {
+  width: 500px;
+  
+}
+
+div.form h1 {
+  color: #007DFE;
+}
+div.form input[type="text"], input[type="email"]{
+  width: 300px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: rgb(228, 225, 225);
+  padding: 5px 15px;
+  border: none;
+  
+}
+
+div.form textarea {
+  width: 300px;
+  height: 160px;
+  border-radius: 20px;
+  background-color: rgb(228, 225, 225);
+  padding: 5px 15px;
+  border: none;
+  
+}
+
+div.form input[type="submit"] {
+  width: 330px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #007DFE;
+  padding: 5px 15px;
+  border: none;
+  color: white;
+  
+}
+
+/* XXX */
+/* FOOTER */
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column-reverse;
+  background-color: #2D2E75;
+  color: white;
+  padding-top: 10px;
+
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer a:hover {
+  background-color: #2D2E75;
+}
+
+
+

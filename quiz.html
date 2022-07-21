@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Code Blog</title>
+  <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+  <nav class="menu">
+    <ul>
+      <li><a  href="index.html">Home</a></li>
+      <li><a  href="news.html">News</a></li>
+      <li><a  href="contact.html">Contact</a></li>
+      <li><a  href="about.html">About</a></li>
+      <li><a class="active" href="quiz.html">Quiz</a></li>
+     </ul>
+  </nav>
+  <div class="main">
+    <div class="mmain">
+      <a href="/index.html"><img style="width: auto; height:auto" src="/media/slin_white_logo.PNG" alt="Coding Blog"></a>
+    </div>
+     <div>
+      <div class="alert">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+        <strong>Note!</strong> These questions were taken from the w3schools website.
+      </div>
+    </div>
+      <h1 class="quiz"> WEEKLY QUIZ: HTML</h1>
+      <h3 class="qcount quiz"> Question X of Y</h3>
+      
+      
+    
+      <form class="quiz" action="/action_page.php">
+        <p class="ques quiz">Question?</p>
+        <input class="quiz" type="radio" id="o0" name="answer" value="">
+        <label class="quiz" id="o0" for="REPLACE"></label><br>
+        <input class="quiz" type="radio" id="o1" name="answer" value="">
+        <label class="quiz" id="o1" for="REPLACE"></label><br>
+        <input class="quiz" type="radio" id="o2" name="answer" value="">
+        <label class="quiz" id="o2"for="REPLACE"></label>
+        
+      </form>
+      <button class="quiz" id="ck">Next >></button>
+      <br>
+    
+    
+      <button class="quiz" id="tryA" style="display: none;"> Try Again</button>
+      
+      <script src="quiz.js"></script>
+
+    </div>
+
+
+
+    <footer>
+      <br>
+      <div class="footer"><br>
+       <h4> <span style="font-weight: normal;"><i>made by</i></span> <a href="https://ca.linkedin.com/in/mariapaulavasco" target="_blank" rel="noopener noreferrer">Maria Paula Vasco</a></h4>
+       <br><p>© 2022 all rights reserved</p><br>
+     </div>
+   </footer>
+</body>
+</html>
