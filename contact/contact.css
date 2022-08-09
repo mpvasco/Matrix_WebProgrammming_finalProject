@@ -1,8 +1,14 @@
-
 * {
-  margin: 0px;
-  font-family: Verdana, sans-serif; margin:0;
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body, input, textarea, button, div, a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
 }
 
 /*MENU - NAV BAR*/
@@ -11,24 +17,24 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #000257;
+  background-color: var(--blue-900);
 }
 li { 
   float: left;
 }
 li a { 
   display: block;
-  color: white;
+  color: var(--white);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 .menu a:hover:not(.active) {
-  background-color: #05078d;
+  background-color: var(--blue-700);
 }
 
 .active {
-  background-color:#f7b605;
+  background-color:var(--yellow-700);
 }
 
 nav.menu {
@@ -49,7 +55,7 @@ nav.menu {
 }
 .main {
   margin: 10px 30px;
-  height: 83vh;
+  height: 73vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -81,13 +87,13 @@ div.form {
 }
 
 div.form h1 {
-  color: #007DFE;
+  color: var(--blue-200);
 }
 div.form input[type="text"], input[type="email"]{
   width: 300px;
   height: 30px;
   border-radius: 20px;
-  background-color: rgb(228, 225, 225);
+  background-color: var(--gray-450);
   padding: 5px 15px;
   border: none;
   
@@ -97,7 +103,7 @@ div.form textarea {
   width: 300px;
   height: 160px;
   border-radius: 20px;
-  background-color: rgb(228, 225, 225);
+  background-color: var(--gray-450);
   padding: 5px 15px;
   border: none;
   
@@ -107,10 +113,10 @@ div.form input[type="submit"] {
   width: 330px;
   height: 40px;
   border-radius: 20px;
-  background-color: #007DFE;
+  background-color: var(--blue-200);
   padding: 5px 15px;
   border: none;
-  color: white;
+  color: var(--white);
   
 }
 
@@ -121,18 +127,18 @@ div.form input[type="submit"] {
   align-items: center;
   justify-content: center;
   flex-direction: column-reverse;
-  background-color: #2D2E75;
-  color: white;
+  background-color: var(--blue-300);
+  color: var(--white);
   padding-top: 10px;
 
 }
 .footer a {
   text-decoration: none;
-  color: white;
+  color: var(--white);
 }
 
 .footer a:hover {
-  background-color: #2D2E75;
+  background-color: var(--blue-300);
 }
 
 

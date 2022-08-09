@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body, input, textarea, button, div, a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+:root {
+  --white: #fff;
+  --white-100: #f2f2f2; 
+
+  --gray-200: #d4d4d8;
+  --gray-300: #bbb;
+  --gray-400: #E9E4E4;
+  --gray-450: rgb(228, 225, 225);
+  --gray-500: #888888;
+  --gray-600: #717171;
+
+  --blue-200: #007DFE;
+  --blue-300: #2D2E75;
+  --blue-400: #0077B5;
+  --blue-700: #05078d;
+  --blue-900: #000257;
+
+  --yellow-700: #f7b605;
+
+  --black-100: rgba(0,0,0,0.8);
+}
+

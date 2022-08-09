@@ -1,10 +1,14 @@
-/*  */
-
 * {
-  margin: 0px;
-  font-family: Verdana, sans-serif; margin:0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   text-decoration: none;
-  
+}
+
+body, input, textarea, button, div, a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
 }
 a {
   height: -1px;
@@ -16,7 +20,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #000257;
+  background-color: var(--blue-900);
   width: 100%;
 }
 li { 
@@ -24,17 +28,17 @@ li {
 }
 li a { 
   display: block;
-  color: white;
+  color: var(--white);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 .menu a:hover:not(.active) {
-  background-color: #05078d;
+  background-color: var(--blue-700);
 }
 
 .active {
-  background-color: #f7b605;
+  background-color: var(--yellow-700);
 }
 
 nav.menu {
@@ -66,13 +70,13 @@ body {
 
 .main div h2 {
   margin: 30px 0px;
-  color: #007DFE;
+  color: var(--blue-200);
   font-size: 44px;
   text-align: center;
 }
 
 .main div p {
-  color: #2D2E75;
+  color: var(--blue-300);
   font-size: 20px;
   text-align: center;
   margin: 15px;
@@ -87,7 +91,7 @@ body {
 }
 
 .links div {
-  border: 1px solid #000257;
+  border: 1px solid var(--blue-900);
   border-radius: 10px;
   padding: 15px;
   display: flex;
@@ -96,16 +100,15 @@ body {
   gap: 5px;
   
 }
-.links div a {
+.links div a, .links div a:visited {
   text-decoration: none;
-  color: #000257;
-  /* padding: 10px; */
+  color: var(--blue-900);
 }
 
 .links div:hover, .links a:hover {
   border-radius: 10px;
-  background-color: #2D2E75;
-  color: white;
+  background-color: var(--blue-300);
+  color: var(--white);
 }
 
 
@@ -121,29 +124,30 @@ body {
   gap: 20px;
 }
 div.card {
-  box-shadow: 5px 10px 8px #888888;
+  box-shadow: 5px 10px 8px var(--gray-500);
   border-radius: 5px;
-  height: 250px;
-  width: 500px;
+  height: 15.625rem;
+  width: 31.25rem;
 }
 
 .main div h2.card {
-  color: #2D2E75;
-  font-size: 36px;
+  color: var(--blue-300);
+  font-size: 2.25rem;
 }
 
 .card h3 {
-  background-color: #2D2E75;
-  color: white;
+  background-color: var(--blue-300);
+  color: var(--white);
   text-align: center;
   border-radius: 5px 5px 0px 0px;
-  height: 27px;
+  height: 1.75rem;
   font-weight: 200;
-  font-size: 15px;
-  padding-top: 8px;
+  font-size: 1rem;
+  padding-top: 0.375rem;
 }
 
 .cardDiv {
+  margin-top: 3px; 
   display: flex;
   align-items: center;
   justify-content: center;
@@ -151,7 +155,7 @@ div.card {
 
 .cardDiv img {
   width: 200px;
-  height: 100%;
+  height: auto;
   border-radius: 0px 0 0 5px;
 }
 .cardDiv .card-left {
@@ -176,14 +180,14 @@ div.card {
 /* LUCKY BUTTON */
 .main div .lucky h2 {
   margin-top: 70px;
-  color: #2D2E75;
+  color: var(--blue-300);
   font-size: 36px;
 }
 
 .lucky button  {
-  background-color: #2D2E75;
+  background-color: var(--blue-300);
   /* background-color: #007DFE; */
-  color: white;
+  color: var(--white);
   border: none;
   border-radius: 10px;
   padding: 15px;
@@ -193,12 +197,12 @@ div.card {
 
 .lucky button a {
   text-decoration: none;
-  color: white;
+  color: var(--white);
   border: none;
 }
 .lucky button:hover {
-  background-color: #05078d;
-  color: white;
+  background-color: var(--blue-700);
+  color: var(--white);
 }
 
 /* FOOTER */
@@ -214,16 +218,16 @@ footer {
   align-items: center;
   justify-content: center;
   flex-direction: column-reverse;
-  background-color: #2D2E75;
-  color: white;
+  background-color: var(--blue-300);
+  color: var(--white);
   padding-top: 10px;
 
 }
 .footer a {
   text-decoration: none;
-  color: white;
+  color: var(--white);
 }
 
 .footer a:hover {
-  background-color: #2D2E75;
+  background-color: var(--blue-300);
 }

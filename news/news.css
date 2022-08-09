@@ -1,7 +1,14 @@
 * {
-  margin: 0px;
-  font-family: Verdana, sans-serif; margin:0;
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body, input, textarea, button, div, a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
 }
 
 /*MENU - NAV BAR*/
@@ -10,30 +17,32 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #000257;
+  background-color: var(--blue-900);
 }
 li { 
   float: left;
 }
 li a { 
   display: block;
-  color: white;
+  color: var(--white);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 .menu a:hover:not(.active) {
-  background-color: #05078d;
+  background-color: var(--blue-700);
 }
 
 .active {
-  background-color:#f7b605;
+  background-color:var(--yellow-700);
 }
 
 nav.menu {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  z-index:9999;
+  
 }
  
 /* MAIN */
@@ -69,12 +78,16 @@ body {
         width: auto;
         padding: 16px;
         margin-top: -22px;
-        color: white;
+        color: var(--white);
         font-weight: bold;
         font-size: 18px;
         transition: 0.6s ease;
         border-radius: 0 3px 3px 0;
         user-select: none;
+      }
+
+      .prev {
+        margin-left: -500px;
       }
 
       /* Position the "next button" to the right */
@@ -85,12 +98,12 @@ body {
 
       /* On hover, add a black background color with a little bit see-through */
       .prev:hover, .next:hover {
-        background-color: rgba(0,0,0,0.8);
+        background-color: var(--black-100);
       }
 
       /* Caption text */
       .text {
-        color: #f2f2f2;
+        color: var(--white-100);
         font-size: 15px;
         padding: 8px 12px;
         position: absolute;
@@ -101,7 +114,7 @@ body {
 
       /* Number text (1/3 etc) */
       .numbertext {
-        color: #f2f2f2;
+        color: var(--white-100);
         font-size: 12px;
         padding: 8px 12px;
         position: absolute;
@@ -114,14 +127,14 @@ body {
         height: 15px;
         width: 15px;
         margin: 0 2px;
-        background-color: #bbb;
+        background-color: var(--gray-300);
         border-radius: 50%;
         display: inline-block;
         transition: background-color 0.6s ease;
       }
 
       .slideshow-container .active, .dot:hover {
-        background-color: #717171;
+        background-color: var(--gray-600);
       }
 
       /* Fading animation */
@@ -140,13 +153,27 @@ body {
         .prev, .next,.text {font-size: 11px}
       }
 
-/* XXX */
+/* NEWS */
+
+.newsBody {
+  margin: 30px 50px;
+}
+
+.newsBody div {
+  color: var(--blue-300);
+  font-size: 1rem;
+  margin-bottom: 30px;
+}
+
+
+
+
 /* FOOTER */
 footer {
-  position: absolute; 
+  /* position: absolute;  só ativar se a página for curta */
   bottom: 0;          
   width: 100%;        
-  height: 6.5rem;     
+  height: 6.5rem;    
 }
 
 .footer {
@@ -154,18 +181,18 @@ footer {
   align-items: center;
   justify-content: center;
   flex-direction: column-reverse;
-  background-color: #2D2E75;
-  color: white;
+  background-color: var(--blue-300);
+  color: var(--white);
   padding-top: 10px;
 
 }
 .footer a {
   text-decoration: none;
-  color: white;
+  color: var(--white);
 }
 
 .footer a:hover {
-  background-color: #2D2E75;
+  background-color: var(--blue-300);
 }
 
 

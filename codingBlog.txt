@@ -1,7 +1,7 @@
 Conteúdo principal:
-			MY PROGRAMMING BLOG::::: QUIZ, CARDS*************************************************DONE
+			MY PROGRAMMING BLOG::::: QUIZ, CARDS*******************************************************DONE
 
-Menu:	CONTACT # BLOG/COURSES # PYTHON # CV(sem telefone)***************************************************DONE
+Menu:	CONTACT # BLOG/COURSES # PYTHON # CV(sem telefone)*****************************************DONE
 
 
 ABOUT ME:
@@ -15,6 +15,11 @@ BLOG:
 news: about thech
 new to proggramming? Suggested path
 COURSES Suggenstions: FreecodeCamp; Matrix college**
+
+
+OTHERS:
+Variables to colors: ****************************************************************************DONE
+folder for each page: ***************************************************************************DONE
 
 
 

@@ -1,0 +1,44 @@
+* {
+  margin: 0px;
+}
+body {
+  margin: 20px;
+}
+
+h3.quiz {
+  color: rgb(181, 186, 190);
+}
+
+p.quiz {
+  font-size: 38px;
+  color: rgb(41, 40, 40);
+  margin: 20px 0px;
+  text-align: center;
+  background-color: aliceblue;
+}
+
+input.quiz, label.quiz {
+  font-size: 20px;
+  margin: 10px 2px;
+}
+input.quiz {
+  margin-left: 37%;
+}
+
+button.quiz {
+  background-color: rgb(13, 91, 236);
+  height: 40px;
+  width: 80px;
+  color: aliceblue;
+  border-radius: 10px;
+  border: none;
+  margin: 20px;
+  margin-left: 37%;
+}
+button.quiz:hover {
+  background-color: rgb(3, 29, 77);
+}
+
+h2.quiz {
+  text-align: center;
+}
