@@ -166,14 +166,47 @@ body {
   font-size: 1rem;
   margin-bottom: 80px;
   margin-top: 70px;
+  /* text-align: center; */
+}
+.newsBody h1 {
+  margin-bottom: 30px;
+  font-size: 45px;
   text-align: center;
 }
 
 .newsBody div p {
   line-height: 1.6;
+  padding-left: 50px;
+  margin-bottom: 5px;
 }
 
+.newsBody .video {
+  margin-top: 30px;
+}
 
+.newsBody .video a {
+  text-decoration: underline;
+}
+
+.newsBody iframe {
+  padding-left:50px ;
+}
+
+.newsBody h3 {
+  text-align: start;
+  padding-left: 50px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.newsBody div .figma  {
+  background-color: var(--white);
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  padding-left: 50px;
+}
 
 
 /* FOOTER */
