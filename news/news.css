@@ -190,6 +190,7 @@ body {
 
 .newsBody iframe {
   padding-left:50px ;
+  
 }
 
 .newsBody h3 {
@@ -206,6 +207,11 @@ body {
   flex-direction: column;
   text-align: start;
   padding-left: 50px;
+}
+
+.newsBody #media-matrix {
+  text-align: center;
+  gap: 502px;
 }
 
 
